@@ -1,0 +1,115 @@
+name: tawsela_app
+description: "Tawsela"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: "8.1.3"
+  flutter_bloc: "8.1.4"
+  geolocator: "9.0.2"
+  geocoding: "2.2.0"
+  google_maps_flutter: "2.6.0"
+  flutter_polyline_points: "1.0.0"
+  google_places_flutter: "2.0.8"
+  places_service: "0.1.3"
+  google_directions_api: "0.9.1"
+  dio: "5.4.1"
+  intl: any
+  flutter_localizations:
+    sdk: flutter
+  json_serializable: "6.7.1"
+  json_annotation: null
+  another_flushbar: "1.12.30"
+  equatable: "2.0.5"
+  http:
+  connectivity:
+  get_it: any
+  cupertino_icons: ^1.0.6
+  top_modal_sheet: ^2.1.0
+  image_picker: any
+  image_cropper: any
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.2.3
+  popover: ^0.3.0
+  flutter_svprogresshud: any
+  meta: any
+  html: any
+  auto_size_text: ^3.0.0
+  url_launcher:
+  appwrite: ^12.0.4
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: "2.4.8"
+
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/driver.png
+    - assets/user.png
+    - assets/images/
+    - assets/JSON/keys/server_url.json
+    - assets/JSON/keys/google_map_key.json
+    - assets/JSON/paths/1f.json
+    - assets/JSON/paths/2f.json
+    - assets/JSON/paths/3f.json
+    - assets/JSON/paths/4f.json
+    - assets/JSON/paths/5f.json
+    - assets/JSON/paths/6f.json
+    - assets/JSON/paths/7f.json
+    - assets/JSON/paths/8f.json
+    - assets/JSON/paths/9f.json
+    - assets/JSON/paths/1b.json
+    - assets/JSON/paths/2b.json
+    - assets/JSON/paths/3b.json
+    - assets/JSON/paths/4b.json
+    - assets/JSON/paths/5b.json
+    - assets/JSON/paths/6b.json
+    - assets/JSON/paths/7b.json
+    - assets/JSON/paths/8b.json
+    - assets/JSON/paths/9b.json
+    - assets/JSON/paths/13f.json
+    - assets/JSON/paths/17f.json
+    - assets/JSON/paths/13b.json
+    - assets/JSON/paths/17b.json
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/4.png
+    - assets/5.png
+    - assets/6.png
+    - assets/8.png
+    - assets/9.png
+    - assets/11.png
+    - assets/17.png
+
+  fonts:
+    - family: Alexandria
+      fonts:
+        - asset: assets/fonts/Alexandria-VariableFont_wght.ttf
+    - family: CustomGoogleIcon
+      fonts:
+        - asset: assets/custom_icons/CustomGoogleIcon.ttf
+    - family: CustomSwitchIcon
+      fonts:
+        - asset: assets/custom_icons/CustomSwitchIcon.ttf
+flutter_intl:
+  enabled: true
